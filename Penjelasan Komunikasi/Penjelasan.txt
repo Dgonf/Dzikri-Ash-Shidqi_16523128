@@ -1,2 +1,13 @@
 Isi penjelasan kalian disini gess
-Jangan lupa untuk merubah judul file ini menjadi Penjelasan_[Nama].txt yaaa (tanpa [])
+1. komunikasi SPI
+protokol komunikasi serial yang digunakan untuk mentransfer data antara mikrokontroler dan perangkat peripheral, perangkat master =  mikrokontroler dan perangkat slave = sensor,display, dan chip 
+kelebihan SPI
+tidak ada intrupsi pengiriman data
+pemisahan miso dan mosi memungkinkan terjadi berbarengan 
+kecepeatan transfer lebih tinggi dibanding I2C
+2. Komunikasi I2C
+protokol komunikasi serial yang digunakan untuk mentransfer data antara perangkat mikrokontroler dan perangkat peripheral. I2C adalah protokol yang bersifat master-slave, yang berarti satu perangkat bertindak sebagai master yang mengendalikan komunikasi, sementara perangkat lainnya bertindak sebagai slave yang merespons perintah dari master.
+3. Komunikasi UART
+protokol komunikasi perangkat ke perangkat yang sering digunakan
+komunikasi serial asinkron dengan kecepatan dapat di atur
+uart bisa half duplex dan dull duplex
